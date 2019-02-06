@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">cmd</string>
+    <string name="app_name">Влад Т</string>
+    <string name="student_name">Владислав Трибило</string>
+    <string name="hello">Хелоу</string>
 </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ff0000"
+              android:layout_marginStart="210dp"
+                >
+        <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:src="@drawable/avatar"
+                android:background="#0000ff"
+                android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student_name"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17dp"/>
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Next"
+            android:textColor="#00b0e4"/>
+</LinearLayout>
